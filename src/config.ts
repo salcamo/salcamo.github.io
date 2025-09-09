@@ -1,92 +1,79 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  name: "Salvador Campos Molins",
+  title: "AI/ML Engineer",
+  description: "Portfolio website of Salvador Campos Molins",
+  accentColor: "#024ad8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "salvacamposmolins99@gmail.com",
+    linkedin: "https://linkedin.com/in/salvador-campos-molins/",
+    github: "https://github.com/salcamo",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
-  projects: [
-    {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-  ],
+    "AI/ML Engineer with a strong foundation in MLOps, cloud computing, and applied artificial intelligence. Skilled in building production-ready systems across AWS, Azure, and GCP, with experience applying NLP and LLM technologies such as LangChain to real-world business challenges. Adept at bridging the gap between engineering and strategy, bringing scalable, reliable, and data-driven solutions to cross-functional teams in fast-paced environments.",
+  skills: ["Python", "AWS", "Azure", "Docker", "CI/CD", "MLOps", "FastAPI", "LangChain", "Git/GitHub"],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Hewlett Packard (HP)",
+      title: "MLOps Engineer",
+      dateRange: "October 2024 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Architected and maintained end-to-end ML pipelines on AWS (S3, ECR, EKS), enabling scalable insights for pricing, marketing, and customer segmentation",
+        "Introduced a streamlined development framework that reduced delivery cycles and improved collaboration across engineering and GTM teams",
+        "Built automated CI/CD pipelines ensuring secure, reliable, and production-ready deployments across multiple environments",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Palwise.ai",
+      title: "Co-founder & Head of AI",
+      dateRange: "March 2024 - September 2024",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Co-founded an AI startup delivering custom NLP-powered chatbots tailored to website-specific needs",
+        "Led end-to-end AI development, integrating LLM-based NLP models to generate dynamic, context-aware responses",
+        "Gained hands-on experience in business development, scalability, and go-to-market strategy, sharpening entrepreneurial and leadership skills",
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "NTT Data",
+      title: "Artificial Intelligence Engineer",
+      dateRange: "January 2024 - July 2024",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Delivered AI solutions to enhance business processes, leveraging Azure OpenAI, RPA, and low-code platforms.",
+        "Integrated LLMs and LangChain into enterprise workflows, enabling automation and improving operational efficiency",
+        "Designed and deployed end-to-end prototypes, demonstrating tangible business value to clients",
       ],
+    },
+  ],
+  projects: [
+    {
+      name: "Whisper fine-tuning",
+      description:
+        "As my Bachelor's Thesis, I fine-tuned the Whisper model to transcribe better in Valencian/Catalan.",
+      link: "",
+      skills: ["Python", "HuggingFace Transformers", "Fine-tuning"],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "University of Valencia",
+      degree: "Computer Engineering",
+      dateRange: "2019 - 2024",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Top 10% of the class",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Vytautas Magnus University",
+      degree: "Computer Engineering",
+      dateRange: "2023",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Erasmus Exchange Program",
       ],
+    },
+    {
+      school: "Computer Network and Systems Management",
+      degree: "Associate Degree",
+      dateRange: "2017 - 2019",
+      achievements: [],
     },
   ],
 };
