@@ -45,6 +45,13 @@ export const siteConfig = {
   ],
   projects: [
     {
+      name: "RAGaaS - Retrieval-Augmented Generation as a Service",
+      description:
+        "Production-ready RAG system with comprehensive monitoring, semantic caching, and multi-cloud deployment. Features multi-format document processing, flexible embedding models, vector database integration, and built-in observability with LangSmith and Prometheus metrics.",
+      link: "https://github.com/salcamo/RAGaaS",
+      skills: ["Python", "FastAPI", "LangChain", "Weaviate", "Redis", "Docker", "CI/CD", "MLOps", "Monitoring"],
+    },
+    {
       name: "Whisper fine-tuning",
       description:
         "As my Bachelor's Thesis, I fine-tuned the Whisper model to transcribe better in Valencian/Catalan.",
