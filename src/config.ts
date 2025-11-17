@@ -45,6 +45,13 @@ export const siteConfig = {
   ],
   projects: [
     {
+      name: "AlumniTrack",
+      description:
+        "Production-ready web platform for teachers to manage classes, track student progress, and generate AI-powered reports. Built with hexagonal architecture, featuring Google OAuth authentication, JWT with refresh tokens, Google Gemini AI integration, and comprehensive security (HTTPS, CSP, token rotation). Fully deployed on Supabase, Render, and Vercel with multilingual support (Valencian, Spanish, English).",
+      link: "https://alumnitrack-frontend.vercel.app/",
+      skills: ["Python", "FastAPI", "React", "TypeScript", "PostgreSQL", "SQLAlchemy", "Google Gemini", "OAuth", "JWT", "Docker", "Vercel", "Render", "Supabase"],
+    },
+    {
       name: "RAGaaS - Retrieval-Augmented Generation as a Service",
       description:
         "Production-ready RAG system with comprehensive monitoring, semantic caching, and multi-cloud deployment. Features multi-format document processing, flexible embedding models, vector database integration, and built-in observability with LangSmith and Prometheus metrics.",
