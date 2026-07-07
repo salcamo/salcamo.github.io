@@ -9,18 +9,18 @@ export const siteConfig = {
     github: "https://github.com/salcamo",
   },
   aboutMe:
-    "I build AI systems that ship. Production ML pipelines, LLM integrations, and full-stack products from idea to deployment. I work across AWS, Azure, and GCP, and I care about the boring parts too: CI/CD, monitoring, cost, and reliability. Consulting by day, SaaS builder by night.",
+    "I build AI systems meant for production. ML pipelines, LLM integrations, and full-stack products from first deploy to steady operation. I work across AWS, Azure, and GCP, with the same attention to CI/CD, monitoring, cost, and reliability. I consult on enterprise ML and build SaaS products of my own.",
   skills: ["Python", "LLMs", "Agents", "AWS", "Azure", "Docker", "CI/CD", "MLOps", "FastAPI", "LangChain", "Databricks", "Git/GitHub"],
   experience: [
     {
       company: "Visium",
-      title: "AI Engineer",
+      title: "Machine Learning Engineer",
       dateRange: "December 2025 to Present",
       bullets: [
-        "Consult on AI engineering and MLOps for enterprise clients: LLM integration, model lifecycle, CI/CD for ML, and Databricks data platforms",
-        "Design AI infrastructure on AWS and Azure, from experiment pipelines to production deployments with monitoring and cost controls",
-        "Cut infrastructure costs by over 30% on an internal ML platform through right-sizing and pipeline optimisation",
-        "Work with engineering and business teams to scope AI work, set priorities, and deliver to production",
+        "Deliver ML for enterprise clients across LLM integration, model lifecycle, Databricks platforms, and CI/CD pipelines built for production",
+        "Design ML infrastructure on AWS and Azure, from experiment workflows to governed deployments with monitoring and cost controls",
+        "Cut infrastructure spend by 30%+ on an internal ML platform through right-sizing, smarter pipelines, and tighter resource allocation",
+        "Partner with client engineering and business teams to scope, build, and deploy ML systems with clear outcomes and production ownership",
       ],
     },
     {
@@ -28,10 +28,10 @@ export const siteConfig = {
       title: "MLOps Engineer",
       dateRange: "October 2024 to Present",
       bullets: [
-        "Build and maintain ML pipelines on AWS (S3, ECR, EKS) for pricing, marketing, and customer segmentation",
-        "Introduced a development framework that shortened delivery cycles and improved cross-team collaboration",
-        "Set up CI/CD pipelines for secure, repeatable deployments across multiple environments",
-        "Support ML and LLM workloads from experiment to production across GTM and engineering teams",
+        "Own ML pipelines on AWS (S3, ECR, EKS) for pricing, marketing, and customer segmentation",
+        "Built a development framework that reduced delivery cycles and improved collaboration across GTM and engineering",
+        "Implemented CI/CD for ML across multiple environments with secure, repeatable release workflows",
+        "Support ML and LLM workloads from experimentation through production deployment",
       ],
     },
     {
@@ -39,9 +39,9 @@ export const siteConfig = {
       title: "Co-founder & Head of AI",
       dateRange: "March 2024 to September 2024",
       bullets: [
-        "Co-founded an AI startup building NLP chatbots tailored to client websites",
-        "Led AI development with LLM-based models for context-aware responses",
-        "Handled business development, product scaling, and go-to-market alongside engineering",
+        "Co-founded an AI startup building website-specific NLP chatbots for client use cases",
+        "Led LLM-based product development for dynamic, context-aware conversational experiences",
+        "Drove business development, product scaling, and go-to-market alongside core engineering work",
       ],
     },
     {
@@ -49,9 +49,9 @@ export const siteConfig = {
       title: "Artificial Intelligence Engineer",
       dateRange: "January 2024 to November 2024",
       bullets: [
-        "Built AI solutions with Azure OpenAI, RPA, and low-code platforms",
-        "Integrated LLMs and LangChain into enterprise workflows",
-        "Delivered prototypes that showed concrete value to clients",
+        "Built client AI solutions using Azure OpenAI, RPA, and low-code platforms",
+        "Integrated LLMs and LangChain into enterprise workflows for automation and efficiency gains",
+        "Delivered end-to-end prototypes that demonstrated measurable business value to clients",
       ],
     },
   ],
@@ -60,7 +60,7 @@ export const siteConfig = {
       name: "EUCLM",
       tagline: "European Contract Lifecycle Management",
       description:
-        "Multi-tenant SaaS for European companies to manage contracts: upload PDFs and DOCX, extract terms with Mistral, generate from templates, track status on Kanban boards, and collect eIDAS signatures through Signaturit. GDPR-first design with EU data residency, retention policies, and tenant isolation via PostgreSQL RLS. Includes landing, billing, and admin console.",
+        "Contract lifecycle SaaS built for European teams. Upload PDFs and DOCX, extract terms with Mistral, generate from templates, track deals on Kanban boards, and collect eIDAS signatures through Signaturit. GDPR-first with EU data residency, retention policies, and tenant isolation via PostgreSQL RLS. Full stack from landing page to billing and admin console.",
       link: "https://www.euclm.com",
       images: [
         "/projects/euclm-features.png",
@@ -72,7 +72,7 @@ export const siteConfig = {
       name: "UMT, Music Manager",
       tagline: "Band operations platform for 150+ musicians",
       description:
-        "Web app for a 150+ member Valencian wind band. Covers events, call-ups, live attendance, per-musician payments, and season analytics. Mobile-first and bilingual in Spanish and Valencian. Built for volunteers marking attendance at the rehearsal hall before practice starts.",
+        "Operations platform for a 150+ member Valencian wind band. Events, call-ups, live attendance, payments, and season analytics in one mobile-first app. Bilingual in Spanish and Valencian, built for volunteers taking attendance at the rehearsal hall before practice starts.",
       link: "",
       images: [
         "/projects/umt-attendance.png",
@@ -83,21 +83,21 @@ export const siteConfig = {
     {
       name: "AlumniTrack",
       description:
-        "Web platform for teachers to manage classes, track student progress, and generate AI reports. Hexagonal architecture, Google OAuth, JWT with refresh tokens, Gemini integration. Deployed on Supabase, Render, and Vercel with Valencian, Spanish, and English support.",
+        "Platform for teachers to manage classes, track student progress, and generate AI reports. Hexagonal architecture with Google OAuth, JWT refresh rotation, and Gemini integration. Deployed on Supabase, Render, and Vercel with Spanish, Valencian, and English support.",
       link: "https://alumnitrack-frontend.vercel.app/",
       skills: ["Python", "FastAPI", "React", "TypeScript", "PostgreSQL", "SQLAlchemy", "Google Gemini", "OAuth", "JWT", "Docker", "Vercel", "Render", "Supabase"],
     },
     {
       name: "RAGaaS",
       description:
-        "RAG system with monitoring, semantic caching, and multi-cloud deployment. Multi-format document processing, configurable embeddings, vector DB integration, and observability with LangSmith and Prometheus.",
+        "Retrieval-augmented generation platform with semantic caching, multi-cloud deployment, and production monitoring. Handles multiple document formats, configurable embeddings, vector database integration, and observability through LangSmith and Prometheus.",
       link: "https://github.com/salcamo/RAGaaS",
       skills: ["Python", "FastAPI", "LangChain", "Weaviate", "Redis", "Docker", "CI/CD", "MLOps", "Monitoring"],
     },
     {
       name: "Whisper fine-tuning",
       description:
-        "Bachelor's thesis: fine-tuned Whisper for better transcription in Valencian and Catalan.",
+        "Bachelor's thesis fine-tuning OpenAI Whisper for improved transcription accuracy in Valencian and Catalan.",
       link: "",
       skills: ["Python", "HuggingFace Transformers", "Fine-tuning"],
     },
