@@ -9,7 +9,7 @@ export const siteConfig = {
     github: "https://github.com/salcamo",
   },
   aboutMe:
-    "I build AI systems meant for production. ML pipelines, LLM integrations, and full-stack products from first deploy to steady operation. I work across AWS, Azure, and GCP, with the same attention to CI/CD, monitoring, cost, and reliability. I consult on enterprise ML and build SaaS products of my own.",
+    "I build AI systems meant for production. Production ML pipelines, LLM integrations, and full-stack products from idea to deployment. I work across AWS, Azure, and GCP, with the same attention to CI/CD, monitoring, cost, and reliability. Consulting by day, SaaS builder by night.",
   skills: ["Python", "LLMs", "Agents", "AWS", "Azure", "Docker", "CI/CD", "MLOps", "FastAPI", "LangChain", "Databricks", "Git/GitHub"],
   experience: [
     {
