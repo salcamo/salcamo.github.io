@@ -46,6 +46,11 @@ const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
                         >
                           {exp.company}
                         </p>
+                        {"client" in exp && exp.client && (
+                          <p class="text-sm text-gray-500 mt-0.5">
+                            Client: {exp.client}
+                          </p>
+                        )}
                       </div>
                       <span class="text-xs sm:text-sm text-gray-500 mt-2 sm:mt-0">
                         {exp.dateRange}
