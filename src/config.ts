@@ -15,6 +15,7 @@ export const siteConfig = {
     {
       company: "Visium",
       title: "Machine Learning Engineer",
+      logo: "/logos/visium.png",
       dateRange: "December 2025 to Present",
       bullets: [
         "Deliver ML for enterprise clients across LLM integration, model lifecycle, Databricks platforms, and CI/CD pipelines built for production",
@@ -26,6 +27,7 @@ export const siteConfig = {
     {
       company: "Hewlett Packard (HP)",
       title: "MLOps Engineer",
+      logo: "/logos/hp.png",
       dateRange: "October 2024 to Present",
       bullets: [
         "Own ML pipelines on AWS (S3, ECR, EKS) for pricing, marketing, and customer segmentation",
@@ -47,6 +49,7 @@ export const siteConfig = {
     {
       company: "NTT Data",
       title: "Artificial Intelligence Engineer",
+      logo: "/logos/nttdata.png",
       dateRange: "January 2024 to November 2024",
       bullets: [
         "Built client AI solutions using Azure OpenAI, RPA, and low-code platforms",
