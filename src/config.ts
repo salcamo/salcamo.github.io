@@ -9,7 +9,7 @@ export const siteConfig = {
     github: "https://github.com/salcamo",
   },
   aboutMe:
-    "I build AI systems meant for production. Production ML pipelines, LLM integrations, and full-stack products from idea to deployment. I work across AWS, Azure, and GCP, with the same attention to CI/CD, monitoring, cost, and reliability. Consulting by day, SaaS builder by night.",
+    "AI/ML engineer who builds products and gets them into production. I co-founded a startup and have launched several machine learning products on my own, from a full-stack SaaS platform to a RAG system, running the infrastructure behind them across AWS, Azure, and GCP. I'm as comfortable with the model work (LLMs, fine-tuning, deep learning) as with deciding what to build and why, and I like owning a problem the whole way through.",
   skills: ["Python", "LLMs", "Agents", "AWS", "Azure", "Docker", "CI/CD", "MLOps", "FastAPI", "LangChain", "Databricks", "Git/GitHub"],
   experience: [
     {
@@ -26,9 +26,9 @@ export const siteConfig = {
     },
     {
       company: "Hewlett Packard (HP)",
-      title: "MLOps Engineer",
+      title: "MLOps/ML Engineer, Go-To-Market (GTM)",
       logo: "/logos/hp.png",
-      dateRange: "October 2024 to Present",
+      dateRange: "November 2024 to Present",
       bullets: [
         "Own ML pipelines on AWS (S3, ECR, EKS) for pricing, marketing, and customer segmentation",
         "Built a development framework that reduced delivery cycles and improved collaboration across GTM and engineering",
@@ -39,7 +39,7 @@ export const siteConfig = {
     {
       company: "Palwise.ai",
       title: "Co-founder & Head of AI",
-      dateRange: "March 2024 to September 2024",
+      dateRange: "March 2024 to November 2024",
       bullets: [
         "Co-founded an AI startup building website-specific NLP chatbots for client use cases",
         "Led LLM-based product development for dynamic, context-aware conversational experiences",
@@ -50,7 +50,7 @@ export const siteConfig = {
       company: "NTT Data",
       title: "Artificial Intelligence Engineer",
       logo: "/logos/nttdata.png",
-      dateRange: "January 2024 to November 2024",
+      dateRange: "January 2024 to July 2024",
       bullets: [
         "Built client AI solutions using Azure OpenAI, RPA, and low-code platforms",
         "Integrated LLMs and LangChain into enterprise workflows for automation and efficiency gains",
